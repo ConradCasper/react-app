@@ -14,6 +14,7 @@ class ProductList extends Component {
                             deleteProduct ={this.props.deleteProduct}
                             productId={i}
                             showDelete = {this.props.showDeleteOnProducts}
+                            
                         />)
                 }
                 )

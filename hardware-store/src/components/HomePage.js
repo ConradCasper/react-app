@@ -72,7 +72,6 @@ class HomePage extends Component {
                 <Cart cartList={this.state.cart}/>
                 <Shop productList={this.state.productList} />
                 <button onClick={this.changePage}> Change Page </button>
-                <button onClick={this.addToCart}> Add To Cart </button>
                 {this.state.showAdmin
                     ? <Admin 
                     productList={this.state.productList} 

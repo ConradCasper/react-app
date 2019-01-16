@@ -8,7 +8,8 @@ class CartItem extends Component {
     render() {
         return (
             <div>
-                
+                <h1>{this.props.cartItemTotalPrice}</h1>
+                <p>{this.props.cartItemProducts}</p>
             </div>
         );
     }
