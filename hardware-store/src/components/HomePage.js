@@ -69,7 +69,7 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <Cart cartList={this.state.cart}/>
+                <Cart cartItems={this.state.cart}/>
                 <Shop productList={this.state.productList} />
                 <button onClick={this.changePage}> Change Page </button>
                 {this.state.showAdmin

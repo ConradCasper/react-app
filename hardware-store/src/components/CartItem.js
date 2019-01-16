@@ -8,8 +8,12 @@ class CartItem extends Component {
     render() {
         return (
             <div>
-                <h1>{this.props.cartItemTotalPrice}</h1>
-                <p>{this.props.cartItemProducts}</p>
+                
+                <p>{this.props.item.name}</p>
+                <p>{this.props.item.price}</p>
+                {/* <p>{this.props.item.name}</p>
+                <p>{this.props.item.name}</p> */}
+
             </div>
         );
     }
