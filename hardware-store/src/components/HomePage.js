@@ -26,7 +26,6 @@ class HomePage extends Component {
 
         },
         showAdmin: false,
-        showCart: true
     }
 
     changePage = () => {
@@ -70,6 +69,7 @@ class HomePage extends Component {
     render() {
         return (
             <div>
+                <Cart cartList={this.state.cart}/>
                 <Shop productList={this.state.productList} />
                 <button onClick={this.changePage}> Change Page </button>
                 <button onClick={this.addToCart}> Add To Cart </button>
